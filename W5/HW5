@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {width: 100%; min-width: 600px; maxwidth: 960px;
+				margin: 0 auto;text-align:center;background:rgba(255, 255, 255, 0.788)}
+			header{color:rgba(53, 51, 51, 0.849);background:rgba(134, 180, 223, 0.788);}
+			nav{color:rgba(53, 51, 51, 0.849);background:rgba(134, 180, 223, 0.788);}
+			main{float:left;width:547.2px;height:367.8px;margin:3%;
+				background:aqua;}
+			aside{float:right;width:32%;height:300px;margin:3%;
+				background:rgba(134, 180, 223, 0.788);}
+			footer{clear:left;margin:1%;background:rgba(255, 255, 255, 0.788);}
+
+		</style>
+
+	</head>
+
+	<body>
+		<header>
+			<font size="7"><b>網頁程式設計課程作業五成果展示</b></font>
+			<form>
+				<pre style="text-align:right; margin:3%">
+				<label for="userName">搜尋：</label><input type=""text id="userName" size="20"><img src="https://www.thinkafrica.fi/wp-content/uploads/2019/04/search-icon.png" style="vertical-align: bottom; background-color: #ffffff; height: 1.36rem; width: 1.36rem;">
+				</pre>
+			</form>
+		</header>
+		<nav>
+			<h1 style="text-align:left;">這是我架設的網站，裏頭有紀錄一些於網頁程式設計課程的作業成果！</h1>
+			<h3 style="text-align:left;">網站架設者：黃靖文409410046</h3>
+		</nav>
+		<hr>
+		<main>
+			<img src="https://images.unsplash.com/photo-1547692098-b139f1ea4cbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"width="100%" height="100%"">
+		</main>
+		<aside>
+			<h1>作業列表</h1>
+			<li style="text-align:left; margin:3%"><a href="https://jingwen-ccu.github.io/"><font size="5">第一週作業：index.html</font></a></li>
+			<li style="text-align:left; margin:3%"><a href="https://jingwen-ccu.github.io/W4/W4HW1.html"><font size="5">第四週作業：HW4-1.html</font></a></li>
+			<li style="text-align:left; margin:3%"><a href="https://jingwen-ccu.github.io/W4/W4HW2.html"><font size="5">第四週作業：HW4-2.html</font></a></li>
+		</aside>
+		<footer>
+			<font size="2">@ 2022 版權為資訊工程學系黃靖文所有</font><br>
+			<font size="2">最後維護日期：2022.03.19</font>
+		</footer>
+	</body>
+
+</html>
+
+
+
+<div style="text-align:right;">
+	<input type="search" style="height: 1.5rem; width: 10rem; ">
+	<img src="https://www.thinkafrica.fi/wp-content/uploads/2019/04/search-icon.png" style="background-color: #fdfdfd; height: 1.5rem; width: 1.5rem;">
+</div>
