@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>我的"網頁程式設計課程HW12"</title>
+        <meta charset="utf-8">
+    </head>
+	
+	<body>
+        <h1>網頁程式設計HW12表單練習</h1>
+		<form>
+        
+            <label for="請輸入使用者名稱">請輸入使用者名稱：</label>
+            <input type="text"  name="請輸入使用者名稱" pattern="[A-Z]{1-10}" title="只能包含英文字母，且只能輸入1到10個字元。">
+            <br>
+            
+            <label for="請輸入密碼">請輸入密碼：</label>
+            <input type="text" required name="請輸入密碼" pattern="[A-Z]{6}" title="只能包含大寫英文字母，且需輸入剛好6個字元。">
+            <input type="submit" value="提交">
+            
+        </form>
+	</body>
+</html>
