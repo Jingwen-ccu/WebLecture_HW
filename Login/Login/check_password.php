@@ -1,5 +1,11 @@
 
+
+
 <?php
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    $_SERVER['REQUEST_METHOD'] = 'POST';
+  }
+  
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // 檢查提交的密碼是否正確
   if ($_POST['password'] === 'mypassword') {
